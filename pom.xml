@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.parabot.dragonblader141</groupId>
+    <artifactId>dbsmith</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <repositories>
+        <repository>
+            <id>parabot-maven</id>
+            <name>Parabot Maven Repository</name>
+            <url>http://maven.parabot.org/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.parabot</groupId>
+            <artifactId>client</artifactId>
+            <version>2.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.parabot</groupId>
+            <artifactId>internal-api</artifactId>
+            <version>1.53.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.parabot</groupId>
+            <artifactId>317-api-minified</artifactId>
+            <version>1.21.5</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
